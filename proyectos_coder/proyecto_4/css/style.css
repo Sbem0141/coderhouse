@@ -33,13 +33,15 @@ li {
 .menup a{
     text-decoration: none;
     padding: 15px;
-    font-size: 20px;
     color: black;
+    font-size: 20px;
+    transition: font-size 0.2s;
 }
 
 .menup a:hover {
     font-weight: 100;
     color: gainsboro;
+    font-size: 22px;
 }
 
 .logo{
@@ -63,9 +65,18 @@ li {
 
 }
 
+.menu a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+    transition: font-size 0.2s;
+}
+
 .menu a:hover {
     font-weight: 100;
     color: gainsboro;
+    font-size: 22px;
 }
 
 .menu li{
@@ -74,12 +85,7 @@ li {
 
 }
 
-.menu a {
-    text-decoration: none;
-    padding: 15px;
-    font-size: 20px;
-    color: black;
-}
+
 
 .main {
 
@@ -91,15 +97,25 @@ li {
 
 }
 
+
+
 .main span {
     display: block;
     box-sizing: border-box;
-    background-color: gainsboro;
+    background-color: white;
+    border-width: 0.5px;
+    border-style:inset;
+    border-color: black;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
-    width: 150px;
+    width: 160px;
     text-align: center;
+    transition: background-color 0.2s;
+}
+
+.main span:hover{
+    background-color:springgreen;
 }
 
 footer {
@@ -113,7 +129,6 @@ footer {
 }
 
 
-
 h2 {
     position: relative;
     font-weight: lighter;
@@ -124,6 +139,7 @@ h2 {
     height: 100%;
 
 }
+
 
 .nuevosingresos img {
     width: 100%;
@@ -201,6 +217,12 @@ h2 {
     margin: 5px;
     text-align: center;
     font-size: 12px;
+    background-color: white;
+    transition: background-color 0.2s;
+}
+
+.tzapato button:hover{
+    background-color: springgreen;
 }
 
 .tbaja {
@@ -210,6 +232,7 @@ h2 {
     align-content: space-around;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .tbaja button {
@@ -218,6 +241,12 @@ h2 {
     margin: 5px;
     text-align: center;
     font-size: 12px;
+    background-color: white;
+    transition: background-color 0.2s;
+}
+
+.tbaja button:hover{
+    background-color: springgreen;
 }
 
 .tsuperior {
@@ -235,6 +264,12 @@ h2 {
     margin: 5px;
     text-align: center;
     font-size: 12px;
+    background-color: white;
+    transition: background-color 0.2s;
+}
+
+.tsuperior button:hover{
+    background-color: springgreen;
 }
 
 .infoventa{
