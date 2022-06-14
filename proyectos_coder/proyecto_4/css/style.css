@@ -1,0 +1,332 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+
+.grilla {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 2% 10% 85% 5%;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.promo {
+    background-color:gainsboro;
+    padding: 5px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menup {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.menup a{
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+}
+
+.menup a:hover {
+    font-weight: 100;
+    color: gainsboro;
+}
+
+.logo{
+    box-sizing: border-box;
+    width: 100px;
+    height: 25px;
+    object-fit: cover;
+}
+
+
+.contmenu{
+    margin: auto;
+    max-width: 1280px;
+    min-width: 320px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.menu a:hover {
+    font-weight: 100;
+    color: gainsboro;
+}
+
+.menu li{
+    list-style: none;
+    align-self: center;
+
+}
+
+.menu a {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    color: black;
+}
+
+.main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: centers;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+.main span {
+    display: block;
+    box-sizing: border-box;
+    background-color: gainsboro;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    background-color: gainsboro;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    align-items: center;
+    justify-items: center;
+    align-content: space-around;
+
+}
+
+
+
+h2 {
+    position: relative;
+    font-weight: lighter;
+}
+
+.informativo img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.nuevosingresos img {
+    width: 100%;
+    height: 80%;
+}
+
+.marcas img {
+    width: 100%;
+    height: 80%;
+}
+
+.informativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    justify-content: space-evenly;
+    margin: 20px;
+
+}
+
+.nuevosingresos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+}
+
+.marcas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+
+}
+
+.ayuda {
+    display: grid;
+    grid-template-columns: 60vw;
+    justify-items: center;
+    margin: 20px;
+
+
+}
+
+.preguntas {
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw ;
+    column-gap: 10px;
+    justify-items: center;
+    margin: 0px;
+
+}
+
+.preguntas span {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+}
+.tzapato {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tzapato button {
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.tbaja {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tbaja button {
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.tsuperior {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tsuperior button {
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.infoventa{
+    background-color: ghostwhite;
+  
+    position: absolute;
+    width: 400px;
+    top: 220px;
+    margin-left: 50px;
+    padding: 20px;
+    
+}
+
+.formventa{
+    background-color:honeydew;
+    
+    position: absolute;
+    top: 220px;
+    left: 470px;
+    padding: 20px;
+
+}
+
+.imgpasosventa
+{
+    position: relative;
+    left: 50px;
+    width: 272px;
+}
+
+.filtros {
+    background-color: honeydew;
+    position: absolute;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 150px;
+    padding-right: 40px;
+    position: fixed;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.producto1{
+    position: absolute;
+    left: 200px;
+    text-align: center;
+    margin: 40px;
+
+}
+
+.producto2{
+    position: absolute;
+    left: 500px;
+    text-align: center;
+    margin: 40px;
+
+}
+.producto3{
+    position: absolute;
+    left: 800px;
+    text-align: center;
+    margin: 40px;
+}
+.imgproducto{
+    width: 200px;
+    height: 300px;
+}
+
+@media (max-width: 768px) {
+    .grilla {
+        font-size: 15px;
+    }
+
+    .informativo {
+        margin: 5px;
+    }
+    
+    .nuevosingresos {
+        margin: 5px;
+    }
+    
+    .marcas {
+        margin: 5px;
+    }
+    
+    .ayuda {
+        margin: 5px;
+    }
+
+    .preguntas {
+        grid-template-columns: 100%;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+}
