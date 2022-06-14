@@ -1,0 +1,28 @@
+h1 {
+    color:#85ac5e;
+}
+
+nav li ul {
+    color:darkgray
+}
+
+a { 
+    color:darkgreen
+}
+article{
+    background-color: chocolate;
+}
+article p{
+    color: white
+}
+.negrita{
+    color: turquoise;
+}
+.formato2{
+    color: tomato;
+    font-size: 30px;
+    font-weight: bold;
+}
+.block{
+    background-color: chocolate;
+}

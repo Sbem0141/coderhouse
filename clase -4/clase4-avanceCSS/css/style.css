@@ -1,0 +1,110 @@
+/* RESETEO */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*TEORIA DE POSICIONES Y DISPLAY*/
+
+.block{
+    background-color: coral;
+    border-top: solid 3px black;
+    border-bottom: double 15px yellow;
+    margin: 15px;
+    padding: 10px;
+    width: 291px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.inline{
+    background-color: darkgoldenrod;
+    border: solid 3px black;
+    margin: 20px;
+    padding: 15px;
+    width: 550px;
+    height: 250px;
+}
+
+.pruebaBloque{
+    display: inline;
+}
+
+.pruebaEnLinea{
+    display: block;
+}
+
+.inline-block{
+    background-color: darkmagenta;
+    color: white;
+    display: inline-block;
+    width: 550px;
+    height: 75px;
+}
+
+.desaparece{
+    display: none;
+}
+
+.rojo{
+    color: red;
+}
+
+.overflow{
+    background-color: crimson;
+    border: solid 2px black;
+    font-size: 35px;
+    width: 50px;
+    /* visible (defecto) / hidden / scroll */
+    overflow: hidden;
+}
+
+.independiente{
+    display: block;
+    /* margin: 45px 15px 150px 48px; */
+    margin-top: 45px;
+    margin-bottom: 2px;
+    margin-left: 78px;
+    margin-right: 65px;
+}
+
+
+.relative{
+    position: relative;
+    top: 250px;
+}
+
+.absolute{
+    position: absolute;
+    left: 350px;
+}
+
+/*PRACTICA DE LA CLASE 4*/
+.header{
+   background-color: #4E5169;
+}
+
+.body{
+    background-color: #FFFEEE;
+}
+
+.main{
+    max-width: 850px;
+    margin: 100px auto;
+}
+
+.imagenNoticia img{
+    max-width: 425px;
+}
+
+.titularNoticia{
+    display: inline-block;
+    max-width: 400px;
+}
+.imagenNoticia{
+    display: inline-block;
+}
+
+.primeraParte{
+    margin-bottom: 50px;
+}

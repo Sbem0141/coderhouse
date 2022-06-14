@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    position: absolute;
+    left: 80px;
+    top: 40px;
+    font-weight: lighter;
+}
+
+.promo {
+    background-color:gainsboro;
+    padding: 5px;
+    text-align: center;
+    position:relative;
+}
+
+.logo {
+    margin-left: -10px;
+    margin-top: -20px;
+}
+
+.frase {
+    position: absolute;
+    background-color: white;
+    left: 415px;
+    font-weight: bolder;
+    font-style:italic;
+}
+
+.nuevosingresos{
+    position: absolute;
+    background-color:gainsboro;
+    text-align: center;
+    top: 600px;
+    left: 436px;
+    padding: 10px;
+    border-radius: 15px;
+    vertical-align: auto;
+
+}
+
+.coleccion1{
+    overflow: hidden;
+    width: 50%;
+    position: absolute;
+    background-color:gainsboro;
+    text-align: center;
+    left: 436px;
+    top: 1030px;
+    padding: 10px;
+    border-radius: 15px;
+    vertical-align: auto;
+
+}
+
+.marcas{
+    position: absolute;
+    background-color:gainsboro;
+    text-align: center;
+    width: 50%;
+    left: 436px;
+    top: 860px;
+    padding: 10px;
+    border-radius: 15px;
+    vertical-align: auto;
+
+}
+
+.coleccion2{
+    overflow: hidden;
+    position: absolute;
+    background-color:gainsboro;
+    text-align: center;
+    width: 50%;
+    left: 436px;
+    top: 1400px;
+    padding: 10px;
+    border-radius: 15px;
+    vertical-align: auto;
+
+}
+
+ .descuentos{
+        overflow: hidden;
+        position: absolute;
+        background-color:gainsboro;
+        text-align: center;
+        width: 50%;
+        left: 436px;
+        top:1700px;
+        padding: 10px;
+        border-radius: 15px;
+        vertical-align: auto;
+}
+
+
+footer {
+    position: fixed;
+     bottom: 0px;
+}
+
+.main{
+    max-width: 850px;
+    margin: 100px auto;
+}
+
+.imagengen img{
+    max-width: 700px;
+    margin-top: 30px;
+}
+
+.imgnuevos img{
+    max-width: 700px;
+    margin-bottom: 30px;
+    
+}
+
+.imgmarcas img{
+    max-width: 700px;
+}
+
+.informativo{
+    margin-bottom: 50px;
+}
