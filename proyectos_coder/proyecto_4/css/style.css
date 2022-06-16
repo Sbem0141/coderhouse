@@ -11,7 +11,7 @@ li {
 .grilla {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 2% 10% 85% 5%;
+    grid-template-rows: 4% 8% 85% 7%;
     font-family: 'Poppins', sans-serif;
 
 }
@@ -43,6 +43,18 @@ li {
     color: gainsboro;
     font-size: 22px;
 }
+
+.d-flex button{
+border-color:black;
+color: black;
+transition: background-color 0.2s;
+}   
+
+.d-flex button:hover{
+    background-color: springgreen;
+    color: black;
+    }   
+
 
 .logo{
     box-sizing: border-box;
@@ -272,24 +284,31 @@ h2 {
     background-color: springgreen;
 }
 
+.mainventa {
+
+    display: grid;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-content: space-evenly;
+
+}
+
+
 .infoventa{
+    display: flex;
     background-color: ghostwhite;
-  
-    position: absolute;
-    width: 400px;
-    top: 220px;
-    margin-left: 50px;
     padding: 20px;
+    flex-direction: column;
+    align-items: center;
     
 }
 
 .formventa{
-    background-color:honeydew;
-    
-    position: absolute;
-    top: 220px;
-    left: 470px;
+    display: flex;
+    background-color: honeydew;
     padding: 20px;
+    flex-direction: column;
+    align-items: center;
 
 }
 
