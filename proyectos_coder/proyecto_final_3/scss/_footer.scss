@@ -1,0 +1,17 @@
+@import './variables';
+
+@import './mixins';
+
+
+
+footer {
+    display: grid;
+    background-color: gainsboro;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    align-items: center;
+    justify-items: center;
+    align-content: space-around;
+    @include estilo ($tipografia,$color) ;
+
+
+}

@@ -1,0 +1,50 @@
+@import './variables';
+
+@import './mixins';
+
+.mainventa {
+
+    display: grid;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-content: space-evenly;
+    @include estilo ($tipografia,$color) ;
+}
+
+
+.infoventa{
+    display: flex;
+    background-color: ghostwhite;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.formventa{
+    display: flex;
+    background-color: honeydew;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    animation-name: formenmovimiento ;
+    animation-duration: 10s;
+    animation-timing-function: infinite;
+
+}
+
+.imgpasosventa
+{
+    position: relative;
+    left: 50px;
+    width: 272px;
+}
+
+@keyframes formenmovimiento {
+    0%{ background-color:blanchedalmond; }
+    15%{ background-color: cornsilk; }
+    25%{ background-color: darkkhaki; }
+    50%{background-color:floralwhite; }
+    75%{ background-color: honeydew;}
+    100%{ background-color: lavenderblush;}
+ }

@@ -1,0 +1,9 @@
+@import './variables';
+@import './mixins';
+
+.promo {
+    background-color:gainsboro;
+    padding: 5px;
+    text-align: center;
+    @include estilo ($tipografia,$color) ;
+}

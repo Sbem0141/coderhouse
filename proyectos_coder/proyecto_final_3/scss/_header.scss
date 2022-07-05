@@ -1,0 +1,75 @@
+@import './variables';
+
+@import './mixins';
+
+.menup {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.menup a{
+    text-decoration: none;
+    padding: 15px;
+    @include estilo ($tipografia,$color) ;
+    font-size: 20px;
+    transition: font-size 0.2s;
+}
+
+.menup a:hover {
+    font-weight: 100;
+    color: gainsboro;
+    font-size: 22px;
+}
+
+.d-flex button{
+    border-color:black;
+    @include estilo ($tipografia,$color) ;
+    transition: background-color 0.2s;
+    }   
+    
+.d-flex button:hover{
+    background-color: springgreen;
+    @include estilo ($tipografia,$color) ;
+        }   
+
+.logo{
+        box-sizing: border-box;
+        width: 100px;
+        height: 25px;
+        object-fit: cover;
+        }
+        
+        
+        .contmenu{
+            margin: auto;
+            max-width: 1280px;
+            min-width: 320px;
+        }
+        
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        
+        }
+        
+        .menu a {
+            text-decoration: none;
+            padding: 15px;
+            font-size: 20px;
+            @include estilo ($tipografia,$color) ;
+            transition: font-size 0.2s;
+        }
+        
+        .menu a:hover {
+            font-weight: 100;
+            color: gainsboro;
+            font-size: 22px;
+        }
+        
+        .menu li{
+            list-style: none;
+            align-self: center;
+        
+        }

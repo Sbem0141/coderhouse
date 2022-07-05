@@ -1,0 +1,208 @@
+@import './variables';
+
+@import './mixins';
+
+.grilla {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 4% 8% 85% 7%;
+    @include estilo ($tipografia,$color) ;
+}
+
+.main {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: centers;
+    flex-wrap: nowrap;
+    align-items: center;
+    @include estilo ($tipografia,$color) ;
+
+
+    span {
+        display: block;
+        box-sizing: border-box;
+        background-color: white;
+        border-width: 0.5px;
+        border-style:inset;
+        border-color: black;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 5px;
+        width: 160px;
+        text-align: center;
+        transition: background-color 0.2s;
+
+        &:hover{
+            background-color:springgreen;
+        }
+        
+    }
+
+}
+
+
+.informativo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    justify-content: space-evenly;
+    margin: 20px;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+.nuevosingresos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    img {
+        width: 100%;
+        height: 80%;
+    }
+
+}
+
+.marcas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    
+    img {
+        width: 100%;
+        height: 80%;
+    }
+
+}
+
+.ayuda {
+    display: grid;
+    grid-template-columns: 60vw;
+    justify-items: center;
+    margin: 20px;
+
+
+}
+
+.preguntas {
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw ;
+    column-gap: 10px;
+    justify-items: center;
+    margin: 0px;
+
+    span {
+        display: flex;
+        width: 100%;
+        height: 40px;
+        justify-content: center;
+    }
+
+}
+
+.tzapato {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    button {
+        width: 100px;
+        height: 30px;
+        margin: 5px;
+        text-align: center;
+        font-size: 12px;
+        background-color: white;
+        transition: background-color 0.2s;
+    
+        &:hover{
+            background-color: springgreen;
+        }
+    }
+}
+
+.tbaja {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    button {
+        width: 100px;
+        height: 30px;
+        margin: 5px;
+        text-align: center;
+        font-size: 12px;
+        background-color: white;
+        transition: background-color 0.2s;
+    
+        &:hover{
+            background-color: springgreen;
+        }
+    }
+
+}
+
+.tsuperior {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    button{
+        width: 100px;
+        height: 30px;
+        margin: 5px;
+        text-align: center;
+        font-size: 12px;
+        background-color: white;
+        transition: background-color 0.2s;
+
+        &:hover {
+            background-color: springgreen;
+    
+        }
+    }
+
+    
+}
+
+@media (max-width: 768px) {
+    .grilla {
+        font-size: 15px;
+    }
+
+    .informativo {
+        margin: 5px;
+    }
+    
+    .nuevosingresos {
+        margin: 5px;
+    }
+    
+    .marcas {
+        margin: 5px;
+    }
+    
+    .ayuda {
+        margin: 5px;
+    }
+
+    .preguntas {
+        grid-template-columns: 100%;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+}

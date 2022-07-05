@@ -1,0 +1,44 @@
+@import './variables';
+
+@import './mixins';
+
+.tienda {
+    display: grid;
+    grid-template-columns: 25% 75%;
+}
+
+.filtros {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    cursor: pointer;
+
+    li {
+        margin: 4px;
+    }
+
+    a{
+        border: 0.5px solid black;
+        border-radius: 5px;    
+        padding: 2px;
+        margin: 2px;
+        }
+}
+.fotos_prendas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    img{
+        height: auto;
+        max-width: 100%;
+    }
+}
+
+.producto {
+    text-align: center;
+    align-items: center;
+}
